@@ -1,11 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
 
+
+:root{
+    --primary-color: #DB2777;
+    --dark-grey: #111827;
+}
+
 body{
     font-family: 'Montserrat', sans-serif;
 }
 
+hr{
+    margin: 2rem 0rem;
+}
 
-
+/**container**/
 .container{
     padding-left: 1rem;
     padding-right: 1rem;
@@ -14,35 +23,89 @@ body{
 .container-center{
     max-width: 600px;
     margin: auto;
+}
 
+/** links **/
+
+.link{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+.link-primary {
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
+}
+
+.link-secondary {
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
+}
+
+/**lists**/
+
+.list-non-bullets{
+    list-style: none;
+}
+
+
+.list-item-inline{
+    display: inline;
+    padding-right: 0rem 0.5rem;
+}
+
+
+/**navigation**/
+
+.navigation {
+    background-color: var(--primary-color);
+    color:white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+    
+}
+.nav-brand{
+    font-weight: bold;
+}
+
+.navigation .link {
+    color:white;
+    
+}
+
+.nav-pills {
+    text-align: right;
+}
+
+.navigation .link-active{
+    font-weight: bold;
 }
 
 
 
+/**header**/
 
+.hero{
+    padding: 2rem;
+}
 
+.hero-img{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
 
+.hero-heading{
+    padding-top: 1rem;
+    color: var(--dark-grey);
+}
 
+/**Section**/
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.section h3{
+    text-align: center;
+}
 
 
 
