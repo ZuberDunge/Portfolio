@@ -11,8 +11,10 @@ body{
     padding-right: 1rem;
 }
 
-.conatiner-fluid{
-    
+.container-center{
+    max-width: 600px;
+    margin: auto;
+
 }
 
 
