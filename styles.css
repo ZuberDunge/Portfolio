@@ -94,7 +94,7 @@ hr {
 }
 
 .hero-img {
-    max-width: 350px;
+    max-width: 400px;
     display: block;
     margin: auto;
 }
@@ -142,4 +142,12 @@ hr {
 
 .list-space{
     padding-bottom: 2rem;
+}
+
+
+
+.project-thumbnail{
+    max-width: 800px;
+    display: block;
+    margin: auto;
 }
