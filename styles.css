@@ -137,3 +137,9 @@ hr {
     font-weight: bold;
     font-size: large;
 }
+
+/**spcae**/
+
+.list-space{
+    padding-bottom: 2rem;
+}
