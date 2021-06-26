@@ -2,9 +2,9 @@
 
 
 :root {
-    --primary-color: #031a3d;
-    --Secondary-color:#a4826d ;
-    --light: #f7e6da;
+    --primary-color: #4338CA;
+    --Secondary-color:#191F42 ;
+    --light: #E0E7FF;
 }
 
 body {
@@ -202,5 +202,5 @@ hr {
 }
 
 .skill-color{
-    color: var(--primary-color);
+    color: var(--secondary-color);
 }
