@@ -2,9 +2,9 @@
 
 
 :root {
-    --primary-color: #191F42;
-    --Secondary-color:#6CE2F0 ;
-    --light-pink: #FCE7F3;
+    --primary-color: #031a3d;
+    --Secondary-color:#a4826d ;
+    --light: #f7e6da;
 }
 
 body {
@@ -126,7 +126,7 @@ hr {
 }
 
 .ow{
-    background-color: var(--light-pink);
+    background-color: var(--light);
 }
 
 /**Footer**/
