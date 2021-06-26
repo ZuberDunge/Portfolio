@@ -3,8 +3,8 @@
 
 :root {
     --primary-color: #DB2777;
-    --dark-grey: #111827;
-    --light-pink: #FBCFE8;
+    --dark-grey: #191F42;
+    --light-pink: #FCE7F3;
 }
 
 body {
@@ -124,7 +124,7 @@ hr {
     color: white;
     padding: 2rem 1rem;
     text-align: center;
-    border-top-right-radius: 1rem;
+ 
 }
 .footer .link{
     color: white;
@@ -145,9 +145,31 @@ hr {
 }
 
 
+/* under constrcution */
 
 .project-thumbnail{
     max-width: 800px;
     display: block;
+    margin: auto;
+}
+
+
+
+.icon-social{
+    font-size:24px;
+
+}
+
+
+.footer-list li {
+   
+    display: inline;
+    margin: 0 0.5rem;
+}
+
+.social:hover{color:#191F42;}
+
+.center-button{
+    text-align: center;
     margin: auto;
 }
