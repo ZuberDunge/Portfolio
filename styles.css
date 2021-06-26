@@ -191,7 +191,9 @@ hr {
 .post-img {
     max-width: 600px;
     display: block;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
 }
 
 .heya-heading {
