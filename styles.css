@@ -3,7 +3,7 @@
 
 :root {
     --primary-color: #DB2777;
-    --dark-grey: #191F42;
+    --Secondary-color: #191F42;
     --light-pink: #FCE7F3;
 }
 
@@ -32,6 +32,12 @@ hr {
 .link {
     text-decoration: none;
     padding: 0.5rem 1rem;
+}
+
+.link-color {
+    
+    padding: 0.5rem 1rem;
+    color: #ffffff;
 }
 
 .link-primary {
@@ -101,7 +107,7 @@ hr {
 
 .hero-heading {
     padding-top: 1rem;
-    color: var(--dark-grey);
+    color: var(--Secondary-color);
     text-align: center;
 }
 
@@ -168,6 +174,9 @@ hr {
 }
 
 .social:hover{color:#191F42;}
+.social-w:hover{color: #ffffff;}
+
+
 
 .center-button{
     text-align: center;
@@ -178,4 +187,14 @@ hr {
     max-width: 600px;
     display: block;
     margin: auto;
+}
+
+.heya-heading {
+    
+    font-size: 2rem;
+    
+}
+
+.skill-color{
+    color: var(--Secondary-color);
 }
