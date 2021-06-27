@@ -209,3 +209,12 @@ hr {
 .custom-icon{
     max-width: 24px;
 }
+
+.skill-img {
+    max-width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+
+}
