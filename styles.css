@@ -3,7 +3,7 @@
 
 :root {
     --primary-color: #4338CA;
-    --Secondary-color:#191F42 ;
+    --Secondary-color: #191F42;
     --light: #E0E7FF;
 }
 
@@ -35,7 +35,7 @@ hr {
 }
 
 .link-color {
-    
+
     padding: 0.5rem 1rem;
     color: #ffffff;
 }
@@ -118,48 +118,51 @@ hr {
 }
 
 /**Section**/
-.section{
+.section {
     padding: 2rem;
 }
+
 .section h1 {
     text-align: center;
-    
+
 }
 
-.ow{
+.ow {
     background-color: var(--light);
 }
 
 /**Footer**/
-.footer{
+.footer {
     background-color: var(--primary-color);
     color: white;
     padding: 0.75rem 1rem;
     text-align: center;
- 
+
 }
-.footer .link{
+
+.footer .link {
     color: white;
 }
-.footer ul{
+
+.footer ul {
     padding-inline-start: 0px;
 }
 
-.footer-header{
+.footer-header {
     font-weight: bold;
     font-size: large;
 }
 
 /**spcae**/
 
-.list-space{
+.list-space {
     padding-bottom: 2rem;
 }
 
 
 /* under constrcution */
 
-.project-thumbnail{
+.project-thumbnail {
     max-width: 800px;
     display: block;
     margin: auto;
@@ -167,23 +170,25 @@ hr {
 
 
 
-.icon-social{
-    font-size:24px;
+.icon-social {
+    font-size: 24px;
 
 }
 
 
 .footer-list li {
-   
+
     display: inline;
     margin: 0 0.5rem;
 }
 
-.social:hover{color: var(--Secondary-color);}
+.social:hover {
+    color: var(--Secondary-color);
+}
 
 
 
-.center-button{
+.center-button {
     text-align: center;
     margin: auto;
 }
@@ -197,21 +202,21 @@ hr {
 }
 
 .heya-heading {
-    
+
     font-size: 2rem;
-    
+
 }
 
-.skill-color{
+.skill-color {
     color: var(--secondary-color);
 }
 
-.custom-icon{
+.custom-icon {
     max-width: 24px;
 }
 
 .skill-img {
-    max-width: 800px;
+    max-width: 1000px;
     display: block;
     margin-left: auto;
     margin-right: auto;
