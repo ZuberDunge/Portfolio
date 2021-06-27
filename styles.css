@@ -76,6 +76,7 @@ hr {
 
 .nav-brand {
     font-weight: bold;
+    text-decoration: none;
 }
 
 .navigation .link {
@@ -203,4 +204,8 @@ hr {
 
 .skill-color{
     color: var(--secondary-color);
+}
+
+.custom-icon{
+    max-width: 24px;
 }
