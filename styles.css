@@ -70,7 +70,7 @@ hr {
     background-color: var(--primary-color);
     color: white;
     padding: 1rem;
-    padding-bottom: 0.25rem;    border-bottom-left-radius: 1rem;
+    padding-bottom: 0.5rem;    border-bottom-left-radius: 1rem;
 
 }
 
