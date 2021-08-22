@@ -226,6 +226,18 @@ hr {
     width: 100%;
 
 }
+
+.style-button{
+    border-radius: 0.75rem;
+  
+}
+
+.style-button:hover{
+    background-color: #191F42;
+    color: white;
+
+}
+
 /* 
 blog heading list */
 
