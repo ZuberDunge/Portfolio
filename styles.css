@@ -226,3 +226,15 @@ hr {
     width: 100%;
 
 }
+/* 
+blog heading list */
+
+.heading-list {
+    padding: 1rem;
+    line-height: 2rem;
+    font-size: large;
+    font-weight: bold;
+    text-decoration: none;
+    color: #191F42;
+    text-decoration: underline 2px;
+}
