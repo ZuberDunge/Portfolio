@@ -172,7 +172,9 @@ hr {
 }
 
 
-
+.social{
+    transition: all 0.5s;
+}
 .icon-social {
     font-size: 24px;
 
@@ -180,13 +182,14 @@ hr {
 
 
 .footer-list li {
-
+    
     display: inline;
     margin: 0 0.5rem;
 }
 
 .social:hover {
-    color: var(--Secondary-color);
+    color: var(--Secondary-color);  
+
 }
 
 
@@ -229,6 +232,7 @@ hr {
 
 .style-button{
     border-radius: 0.75rem;
+    transition: all 1s;
   
 }
 
