@@ -64,38 +64,148 @@ hr {
 }
 
 
-/**navigation**/
 
-.navigation {
-    background-color: var(--primary-color);
-    color: white;
-    padding: 1rem;
-    padding-bottom: 0.5rem;    border-bottom-left-radius: 1rem;
-
-}
-
-.nav-brand {
-    font-weight: bold;
+.nav-container {
+    padding: 0;
+    margin: 0;
     text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
 }
 
-.navigation .link {
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0%;
+
+}
+
+nav {
+    background: #4338CA;
+    height: 80px;
+    width: 100%;
+    transition: all 1s;
+}
+
+label.logo {
     color: white;
-
-}
-
-.nav-pills {
-    text-align: right;
-}
-
-.navigation .link-active {
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
     font-weight: bold;
 }
 
-.logo{
-   width: 100px;
-   height: 50px;
+nav ul {
+    float: right;
+
+    margin: 0 40px 0 0;
 }
+
+nav li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 8px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    font-size: 17px;
+    border: 1px solid transparent;
+    padding: 7px 13px;
+    border-radius: 3px;
+}
+
+a.active,
+a:hover {
+
+    transition: .5s;
+    border: 1px solid white;
+
+}
+
+nav #icon {
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+@media screen (max-width: 1048px) {
+
+    label.logo {
+        font-size: 32px;
+        padding-left: 60px;
+    }
+
+    nav ul {
+        margin-right: 20px;
+    }
+
+    nav a {
+        font-size: 17px;
+    }
+
+
+
+}
+
+@media screen and (min-width: 320px) and (max-width: 900px) {
+
+    nav #icon {
+        display: block;
+    }
+
+    label.logo {
+        font-size: 32px;
+        padding-left: 40px;
+        padding-right: 0px;
+    }
+
+
+    nav ul {
+        position: fixed;
+        height: 45vh;
+        width: 100%;
+        background: #0b073b;
+        top: 80px;
+
+        text-align: center;
+        left: -100%;
+        padding-left: 0;
+        transition: all 0.5s;
+    }
+
+    nav li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+
+    nav a {
+        font-size: 20px;
+        
+    }
+
+    a.active,
+    a:hover {
+        border: none;
+        color: rgb(0, 246, 74);
+        transition: all .5s;
+       background-color: #4338CA;
+       padding: auto 50px;
+    }
+
+    nav ul.show {
+        left: 0;
+        right: 0;
+    }
+}
+
+
 
 /**header**/
 
@@ -172,24 +282,22 @@ hr {
 }
 
 
-.social{
+.social {
     transition: all 0.5s;
 }
+
 .icon-social {
     font-size: 24px;
-
 }
 
 
 .footer-list li {
-    
     display: inline;
     margin: 0 0.5rem;
 }
 
 .social:hover {
-    color: var(--Secondary-color);  
-
+    color: var(--Secondary-color);
 }
 
 
@@ -208,7 +316,6 @@ hr {
 }
 
 .heya-heading {
-
     font-size: 2rem;
 
 }
@@ -230,13 +337,13 @@ hr {
 
 }
 
-.style-button{
+.style-button {
     border-radius: 0.75rem;
     transition: all 1s;
-  
+
 }
 
-.style-button:hover{
+.style-button:hover {
     background-color: #191F42;
     color: white;
 
@@ -246,7 +353,7 @@ hr {
 blog heading list */
 
 .heading-list {
-    
+
     line-height: 2rem;
     font-size: large;
     font-weight: bold;
