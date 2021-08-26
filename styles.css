@@ -116,8 +116,8 @@ nav ul li a {
     border-radius: 3px;
 }
 
-a.active,
-a:hover {
+nav a.active,
+nav a:hover {
 
     transition: .5s;
     border: 1px solid white;
@@ -190,8 +190,8 @@ nav #icon {
         
     }
 
-    a.active,
-    a:hover {
+    nav a.active,
+    nav a:hover {
         border: none;
         color: rgb(0, 246, 74);
         transition: all .5s;
