@@ -1,346 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="https://kit.fontawesome.com/7179336733.js" crossorigin="anonymous"></script>
+    <meta name="keyword" content="Zuber, ZuberDunge, iamZuberDunge, Zuber Dunge, Dunge, Web Developer, portfolio, JavaScript, HTML5, CSS3, ReactJS, web Designing">
+    <meta name="author" content="Zuber Dunge">
+    <meta name="copyright" content="ZuberDunge">
+    <meta name="description" content="Hey, I'm Zuber! A Web Developer. Click here to checkout my projects & Blogs."/>
+    <meta property="twitter:card" content="summary"/>
+    <meta property="twitter:creator" content="@ZuberDunge"/>
+    <meta property="twitter:site" content="@ZuberDunge"/>
+    <meta property="twitter:title" content="ZuberDunge"/>
+    <meta property="twitter:description" content="Hey, I'm Zuber! A Web Developer. Click here to checkout my projects & Blogs."/>
+    <meta property="twitter:image" content="https://zuberdunge.netlify.app/main-logo.png"/>
+    <meta property="og:title" content="Zuber Dunge"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="https://zuberdunge.netlify.app"/>
+    <meta property="og:image" content="https://zuberdunge.netlify.app/main-logo.png"/>
+    <meta name="robots" content="follow">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#4338CA">
+    <title>Home | Zuber Dunge</title>
     <link href="styles.css" rel="stylesheet" />
-
-<style>
-    body{
-        color: #191F42;
-        background-color: var(--light);
-    }
-    .heading-list{
-        padding: 1rem;
-        line-height: 2rem;
-        font-size: large;
-        font-weight: bold;
-        text-decoration: none;
-        color:#191F42;
-        text-decoration: underline 2px;
-    }
-    .post-http-img{
-        margin: auto;
-        width: 100%;
-        text-align: center;
-    }
-
-    footer:hover{
-        background-color: #191F42;
-    }
-</style>
-
-
-
+    <link rel="shortcut icon" type="image/png" href="fav.ico.png" />
+    <script src="https://kit.fontawesome.com/7179336733.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src=".//app.js"></script>
+    <link rel="stylesheet" href="try.css">
 </head>
-
 <body>
+    <div class="nav-container">
+        <nav>
+            <label class="logo">/ZuberXD\</label>
+            <ul><li><a class="active" href="#">Home</a></li>
+                <li><a href="./projects.html" >Projects</a></li>
+                <li><a href="./blogs.html" >Blogs</a></li>
+                <!-- <li><a href="#">Contact</a></li>-->
+             </ul> 
 
-    <nav id="page-top" class="navigation container">
-        <div class="nav-brand"><a class="link" href="index.html">/ZuberXD\</a></div>
-        <ul class="list-non-bullets nav-pills">
-            <li class="list-item-inline">
-                <a class="link" href="/">Home</a>
-            </li>
-            <li class="list-item-inline">
-                <a class="link" href="projects.html">Projects</a>
-            </li>
-            <li class="list-item-inline">
-                <a class="link link-active" href="Blogs.html">Blog</a>
-            </li>
-        </ul>
-    </nav>
+            <label id="icon">  <i class="fas fa-bars"></i>   </label>
+    </nav> </div>
 
 
+    <header class="hero">
+        <img class="hero-img" src="images/index2.svg">
+        <h1 class="hero-heading">Heya!!! I'm Zuber,<br>
+            <span style="font-size: 3rem; color: var(--primary-color); flex: 50%"> A Web Developer.</span></h1>
+    </header>
 
 
     <section class="section ow">
-        <div class="container container-center list-space">
-            <h1 class="skill-color" style="text-align: left;">Introduction to Git!</h1>
-            <small>June, 18th, 2021</small>
-            <p>This is a beginner friendly guide for <strong> getting started with Git.</strong>
-                <br>Click below to read more.</p>
-            <a class="link style-button link-primary" href="./blogs/check.html">Read Now!</a>
+        <div class="container center-button container-center">
+            <h1 class="skill-color skill-heading">My Skills</h1>
+        </div>
+       <br>
+<div class="grid-skill">
+    <div class="grid-skill-img html-img">
+<img src="./images/skills/html.svg" alt="">
+<div> HTML</div>
+    </div>
+    <div class="grid-skill-img css-img">
+        <img src="./images/skills/css.svg" alt="">
+        <div> CSS3</div>
+    </div>
+    <div class="grid-skill-img js-img">
+        <img src="./images/skills/js.svg" alt="">
+        <div> JavaScript</div>
+    </div>
+    <div class="grid-skill-img node-img">
+        <img src="./images/skills/nodejs.svg" alt=""><div> NodeJS</div>
+    </div>
+    <div class="grid-skill-img react-img">
+        <img src="./images/skills/react.svg" alt=""><div> ReactJS</div>
+    </div>
+    <div class="grid-skill-img git-img">
+        <img src="./images/skills/git.svg" alt=""><div> Git</div>
+    </div>
+    <div class="grid-skill-img host-img">
+        <img src="./images/skills/hosting.svg" alt=""><div> Web Hosting</div>
+    </div>
+    <div class="grid-skill-img host-img">
+        <img src="./images/skills/google.svg" alt=""><div> Googling</div>
+    </div>
+</div>
+
+
+
+        <br>
+        <p class="center-button"><B>I'm Good at Graphics Designing too :) </B></p>
+    </section>
+
+    <section class="section">
+        <div class="container  center-button container-center">
+            <h1 class="skill-color">My Projects</h1>
+            <p>I like to showcase my work and thus, you can see my projects hosted online.</p>
+            <a class="link style-button link-primary" href="projects.html">See Projects</a>
+        </div>
+
+    </section>
+
+    <section class="section ow">
+        <div class="container center-button container-center">
+            <h1 class="skill-color">My Blogs</h1>
+            <p>I am also working on some technical and non techincal blogs. I like to document my journey of learning.
+            </p>
+            <a class="link style-button link-secondary" href="blogs.html">Read Blogs</a>
         </div>
     </section>
-    
-    <section class="section">
-        <div class="container container-center list-space">
-            <h1 class="skill-color" style="text-align: left;">A Complete Guide for HTTP Status Codes!</h1>
-            <small>August, 18th, 2021</small>
-            <p>In this blog, we’re going to learn about <strong>40+ HTTP status codes</strong> that you may get. <br>From the 1XX- and 2XX-level codes to the trickier 4XX- and 5XX-level errors.
-                <br>Click below to read more.</p>
-            <a class="link style-button link-primary" href="./http-status-codes.html">Read Now!</a>
-        </div>
-
-    <header class="hero">
-
-        <h1 class="hero-heading">A Complete Guide for<span style="color: var(--primary-color);"> HTTP Status Codes!</span>
-        </h1>
-        <p class="center-button">By Zuber Dunge - August, 18th, 2021</p>
-    </header>
-
-    <div class="container container-center list-space">
-        <img class="post-http-img" src="./images/http-header.png">
-        <br>
-        <h3 class="skill-color">Here's what we'll go over in this article:</h3>
 
 
-
-
-
-    <ul>
-        <li><a class="heading-list" href="#so-what-is-a-http-status-code">What is a HTTP Status Code?</a></li>
-        <li><a class="heading-list" href="#different-classes-of-http-status-codes">Different Classes of HTTP Status Codes</a></li>
-        <li><a class="heading-list" href="#1xx-informational-response">1XX HTTP Status Codes</a></li>
-        <li><a class="heading-list" href="#2xx-successful-response">2XX HTTP Status Codes</a></li>
-        <li><a class="heading-list" href="#3xx-redirection-messages">3XX HTTP Status Codes</a></li>
-        <li><a class="heading-list" href="#4xx-client-error">4XX HTTP Status Codes</a></li>
-        <li><a class="heading-list" href="#5xx-server-error-responses">5XX HTTP Status Codes</a></li>
-        <li><a class="heading-list" href="#conclusion">Conclusion</a></li>
-        </ul>
-        <h2 id="so-what-is-a-http-status-code"><strong>So, What is a HTTP Status Code?</strong></h2>
-        <p>First, what is HTTP? HTTP stands for <strong>Hyper Text Transfer Proptocol.</strong></p>
-        <p>Communication between client computers and web servers is done by sending HTTP Requests and receiving HTTP Responses.</p>
-        <p>So, whenever you go to a website o click on a link, your browser send a requestto the server to fetch the data of the website/URL you entered. The server processed the request and send back the required data.</p>
-        <p>Your browser receives a HTTP Status code every time you visit a website. Normally, those are not visible to you unless there's an <strong>ERROR</strong>.</p>
-        <p>If everything is working properly you won't see status code on your screen but if there's a problem, the server send an <strong>Error Message with a HTTP Status Code</strong> so that you can see what's wrong.</p>
-        <p>Check out the below image of Error Code 429 (Don't worry we'll see more about it in next section :) </p>
-        <p class="thanks-img"><img class="thanks-img" src="./images/error-screenshot.png" alt="error" /></p>
-        <h2 id="different-classes-of-http-status-codes"><strong>Different Classes of HTTP Status Codes</strong></h2>
-        <p>HTTP Status Codes are divided into 5 Groups called as Classes, and the classes are :</p>
-        <ul>
-        <li><strong>1XX - Informational</strong></li>
-        <li><strong>2XX - Success</strong></li>
-        <li><strong>3XX - Redirection</strong></li>
-        <li><strong>4XX - Client error</strong></li>
-        <li><strong>5XX - Server error</strong></li>
-        </ul>
-        <h2 id="1xx-informational-response"><strong><em>1XX - Informational Response</em></strong></h2>
-        <p>An informational response indicates that the request was received and understood.
-        It indicate a provisional response. Before receiving a regular response the client computer receives one or more 1xx responses.</p>
-        <h3 id="heres-the-list-of-1xx-responses">Here's the list of 1XX Responses :</h3>
-        <ul>
-        <li><p><strong>100 - Continue :</strong>
-        Only a part of the request has been received by the server, but as long as it has not been rejected, the client should continue with the request.</p>
-        </li>
-        <li><p><strong>101 - Switching Protocols :</strong>
-        The requester has asked the server to switch protocols and the server has agreed to do so.</p>
-        </li>
-        <li><p><strong>102 - Processing (WebDAV) :</strong>
-        102 indicates that the server has received the request and is processing, but no response is available yet.</p>
-        </li>
-        <li><p><strong>103 - Early Hints  :</strong>
-        Used to return some response headers before final HTTP message.</p>
-        </li>
-        </ul>
-        <h2 id="2xx-successful-response"><strong><em>2XX - Successful Response</em></strong></h2>
-        <p>This class of status codes indicates the action requested by the client was received, understood, and accepted.This is the best kind of HTTP status code to receive. A 2XX-level response means that everything is working exactly as it should.</p>
-        <h3 id="heres-the-list-of-2xx-responses">Here's the list of 2XX Responses :</h3>
-        <ul>
-        <li><p><strong>200 - OK :</strong>
-        This is the code that is delivered when a web page or resource acts exactly the way it’s expected to.</p>
-        </li>
-        <li><p><strong>201 - Created :</strong>
-        The request has been fulfilled, resulting in the creation of a new resource.</p>
-        </li>
-        <li><p><strong>202 - Accepted :</strong>
-        102 indicates that the server has received the request and is processing, but no response is available yet.</p>
-        </li>
-        <li><p><strong>203 -  Non-Authoritative Information  :</strong>
-        This status code may appear when a proxy is in use. It means that the proxy server received a 200 “Everything is OK” status code from the origin server, but has modified the response before passing it on to your browser.</p>
-        </li>
-        <li><p><strong>204 - No Content :</strong>
-        A status code and a header are given in the response, but there is no entity-body in the reply.</p>
-        </li>
-        <li><p><strong>205 - Reset Content :</strong>
-        The browser should clear the form used for this transaction for additional input.</p>
-        </li>
-        <li><p><strong>206 - Partial Content :</strong>
-        The server is returning partial data of the size requested. Used in response to a request specifying a Range header. The server must specify the range included in the response with the Content-Range header.</p>
-        </li>
-        <li><p><strong>207 Multi-Status (WebDAV; RFC 4918) :</strong>
-        The message body that follows is by default an XML message and can contain a number of separate response codes, depending on how many sub-requests were made.</p>
-        </li>
-        <li><p><strong>208 Already Reported (WebDAV; RFC 5842) :</strong>
-        The members of a DAV binding have already been enumerated in a preceding part of the (multistatus) response, and are not being included again.</p>
-        </li>
-        <li><p><strong>226 IM Used (RFC 3229) :</strong>
-        The server has fulfilled a request for the resource, and the response is a representation of the result of one or more instance-manipulations applied to the current instance.</p>
-        </li>
-        </ul>
-        <h2 id="3xx-redirection-messages"><strong><em>3XX - Redirection Messages : </em></strong></h2>
-        <p>Redirection is the process used to communicate that a resource has been moved to a new location. 3XX HTTP status codes indicate that the client browser must take more action to fulfill the request. For example, the client browser may have to request a different page on the server. Or, the client browser may have to repeat the request by using a proxy server.</p>
-        <h3 id="heres-the-list-of-3xx-responses">Here's the list of 3XX Responses :</h3>
-        <ul>
-        <li><p><strong>300 - Multiple Choices :</strong>
-        A link list. The user can select a link and go to that location. Maximum five addresses  .</p>
-        </li>
-        <li><p><strong>301 - Moved Permanently :</strong>
-        The requested resource has been moved permanently. (This code is delivered when a web page or resource has been permanently replaced with a different resource.)</p>
-        </li>
-        <li><p><strong>302 - Found :</strong>
-        The requested page has moved temporarily to a new url .</p>
-        </li>
-        <li><p><strong>303 - See Other :</strong>
-        The server sent this response to direct the client to get the requested resource at another URI with a GET request.</p>
-        </li>
-        <li><p><strong>304 - Not Modified :</strong>
-        “The requested resource has not been modified since the last time you accessed it.” This code tells the browser that the resources stored in the browser cache haven’t changed. It’s used to speed up web page delivery by reusing previously-downloaded resources.</p>
-        </li>
-        <li><p><strong>305 - Use Proxy :</strong>
-        The requested URL must be accessed through the proxy mentioned in the Location header.</p>
-        </li>
-        <li><p><strong>306 - Unused :</strong>
-        This response code is no longer used; it is just reserved. It was used in a previous version of the HTTP/1.1 specification.</p>
-        </li>
-        <li><p><strong>307 - Temporary Redirect :</strong>
-        This status code has replaced 302 “Found” as the appropriate action when a resource has been temporarily moved to a different URL. Unlike the 302 status code, it does not allow the HTTP method to change.</p>
-        </li>
-        <li><p><strong>308 - Permanent Redirect :</strong>
-        The request and all future requests should be repeated using another URI. 307 and 308 parallel the behaviors of 302 and 301, but do not allow the HTTP method to change. So, for example, submitting a form to a permanently redirected resource may continue smoothly.</p>
-        </li>
-        </ul>
-        <h2 id="4xx-client-error"><strong><em>4XX - Client Error :</em></strong></h2>
-        <p>At the 4XX level, HTTP status codes start to become problematic. These are error codes specifying that there’s a fault with your browser and/or request.</p>
-        <h3 id="heres-the-list-of-4xx-responses">Here's the list of 4XX Responses :</h3>
-        <ul>
-        <li><p><strong>400 - Bad Request :</strong>
-        The server did not understand the request.</p>
-        </li>
-        <li><p><strong>401 - Unauthorized :</strong>
-        Although the HTTP standard specifies "unauthorized", semantically this response means "unauthenticated". That is, the client must authenticate itself to get the requested response.</p>
-        </li>
-        <li><p><strong>402 - Payment Required :</strong>
-        Originally, this code was created for use as part of a digital cash system. However, that plan never followed through. Instead, it’s used by a variety of platforms to indicate that a request cannot be fulfilled, usually due to a lack of required funds. 
-        Common instances include: <em>1. You’ve reached your daily request limit to the Google Developers API. 2. You haven’t paid your Shopify fees and your store has been temporarily deactivated. 3. Your payment via Stripe has failed, or Stripe is trying to prevent a fraudulent payment.</em></p>
-        </li>
-        <li><p><strong>403 - Forbidden :</strong>
-        The client does not have access rights to the content; that is, it is unauthorized, so the server is refusing to give the requested resource. Unlike 401, the client's identity is known to the server.</p>
-        </li>
-        <li><p><strong>404 - Not Found :</strong>
-        The server can not find the requested resource. In the browser, this means the URL is not recognized. In an API, this can also mean that the endpoint is valid but the resource itself does not exist. Servers may also send this response instead of 403 to hide the existence of a resource from an unauthorized client. This response code is the most famous one due to its frequent occurrence on the web.</p>
-        </li>
-        <li><p><strong>405 - Method Not Allowed :</strong>
-        his is generated when the hosting server (origin server) supports the method received, but the target resource doesn’t.</p>
-        </li>
-        <li><p><strong>406 - Not Acceptable :</strong>
-        This response is sent when the web server, after performing server-driven content negotiation, doesn't find any content that conforms to the criteria given by the user agent.</p>
-        </li>
-        <li><p><strong>407 - Proxy Authentication Required :</strong>
-        A proxy server is in use and requires your browser to authenticate itself before continuing.</p>
-        </li>
-        <li><p><strong>408 - Request Timeout :</strong>
-        The client did not produce a request within the time that the server was prepared to wait. The client MAY repeat the request without modifications at any later time.</p>
-        </li>
-        <li><p><strong>409 - Conflict :</strong>
-        The request could not be completed due to a conflict with the current state of the target resource. This code is used in situations where the user might be able to resolve the conflict and resubmit the request.</p>
-        </li>
-        <li><p><strong>410 - Gone :</strong>
-        The target resource is no longer available at the origin server and that this condition is likely to be permanent.</p>
-        </li>
-        <li><p><strong>411 - Length Required :</strong>
-        Server rejected the request because the Content-Length header field is not defined and the server requires it.</p>
-        </li>
-        <li><p><strong>412 - Precondition Failed :</strong>
-        Your browser included certain conditions in its request headers, and the server did not meet those specifications.</p>
-        </li>
-        <li><p><strong>413 - Payload Too Large :</strong>
-        Request entity is larger than limits defined by server; the server might close the connection or return an Retry-After header field.</p>
-        </li>
-        <li><p><strong>414 - URI Too Long :</strong>
-        This is usually the result of a GET request that has been encoded as a query string that is too large for the server to process.</p>
-        </li>
-        <li><p><strong>415 - Unsupported Media Type :</strong>
-        The media format of the requested data is not supported by the server, so the server is rejecting the request.</p>
-        </li>
-        <li><p><strong>416 - Range Not Satisfiable :</strong>
-        Your request was for a portion of a resource that the server is unable to return.</p>
-        </li>
-        <li><p><strong>417 - Expectation Failed :</strong>
-        This response code means the expectation indicated by the Expect request header field can't be met by the server</p>
-        </li>
-        <li><p><strong>418 - I’m a teapot :</strong>
-        Any attempt to brew coffee with a teapot should result in the error code "418 I'm a teapot". The resulting entity body MAY be short and stout. (It’s also an April Fool’s Joke from 1998.)</p>
-        </li>
-        <li><p><strong>422 - Unprocessable Entity :</strong>
-        The client request contains semantic errors, and the server can’t process it.</p>
-        </li>
-        <li><p><strong>425 - To Early :</strong>
-        This response code means that the server is not willing to risk processing a request that might be replayed.</p>
-        </li>
-        <li><p><strong>426 - Upgrade Required :</strong>
-        Due to the contents of the request’s upgrade header field, the client should switch to a different protocol.</p>
-        </li>
-        <li><p><strong>428 - Precondition Required :</strong>
-        This response code means that the origin server requires the request to be conditional.</p>
-        </li>
-        <li><p><strong>429 - To many Requests :</strong>
-        This is generated by the server when the user has sent too many requests in a given amount of time (rate-limiting). This can sometimes occur due to bots or scripts attempting to access your site.</p>
-        </li>
-        <li><p><strong>431 - Request Header Fields Too Large :</strong>
-        This response code means that the server is not willing to process the request because its header fields are indeed too large, however, the request may be submitted again once the size of the request header fields is reduced.</p>
-        </li>
-        <li><p><strong>451 - Unavailable For Legal Reasons :</strong>
-        The user-agent requested a resource that cannot legally be provided, such as a web page censored by a government.</p>
-        </li>
-        <li><p><strong>499 - Client closed request :</strong>
-        This is returned by NGINX when the client closes the request while Nginx is still processing it.</p>
-        </li>
-        </ul>
-        <h2 id="5xx-server-error-responses"><strong><em>5XX - Server Error Responses :</em></strong></h2>
-        <p>A 5xx Server error status code means that while the request appears to be valid, the server could not complete the request. If you're experiencing 5xx server errors for your website, you should immediately look at your server. If you're hosting your own server you'll need to start debugging to figure out why it is not responding properly. If you're using an external hosting provider you'll need to reach out to them, so they can look at it.</p>
-        <h3 id="heres-the-list-of-5xx-responses">Here's the list of 5XX Responses :</h3>
-        <ul>
-        <li><p><strong>500 - Internal Server Error :</strong>
-        The server encountered an unexpected condition that prevented it from fulfilling the request.</p>
-        </li>
-        <li><p><strong>501 - Not Implemented :</strong>
-        The server does not support the functionality required to fulfill the request.</p>
-        </li>
-        <li><p><strong>502 - Bad Gateway :</strong>
-        This error response means that the server, while working as a gateway to get a response needed to handle the request, got an invalid response.</p>
-        </li>
-        <li><p><strong>503 - Service Unavailable :</strong>
-        The Service Unavailable response code means that the server is currently not ready to handle the request. This is a common occurrence when the server is down for maintenance or is overloaded.</p>
-        </li>
-        <li><p><strong>504 - Gateway Timeout :</strong>
-        The server, while acting as a gateway or proxy, did not receive a timely response from an upstream server it needed to access in order to complete the request.</p>
-        </li>
-        <li><p><strong>505 - HTTP Version Not Supported :</strong>
-        The server doesn’t support the HTTP version the client used to make the request.</p>
-        </li>
-        <li><p><strong>507 - Insufficient Storage (WebDAV) :</strong>
-        The method could not be performed on the resource because the server is unable to store the representation needed to successfully complete the request.</p>
-        </li>
-        <li><p><strong>508 - Loop Detected (WebDAV) :</strong>
-        The server detected an infinite loop while processing the request.</p>
-        </li>
-        <li><p><strong>510 - Not Extended :</strong>
-        Further extensions to the request are required for the server to fulfill it.</p>
-        </li>
-        <li><p><strong>511 - Network Authentication Required :</strong>
-        This response code means that the client needs to authenticate to gain network access.</p>
-        </li>
-        <li><p><strong>599 -Network Connect Timeout Error :</strong>
-        This status code is not specified in any RFCs, but is used by some HTTP proxies to signal a network connect timeout behind the proxy to a client in front of the proxy.</p>
-        </li>
-        </ul>
-        <h2 id="conclusion"><strong>Conclusion</strong></h2>
-        <h4>In this blog, we’ve learned about 40+ HTTP status codes that you may get. From the 1XX- and 2XX-level codes to the trickier 4XX- and 5XX-level errors.</h4>
-        <h4>I hope you folks now have some knowledge about the HTTP Status Codes, While they may seem confusing or intimidating on the surface, HTTP status codes are actually very informative. By learning some of the common ones, you can troubleshoot problems on your site quickly.</h4>
-        <p><img class="post-http-img" src="./images/thank-you.png" alt="thank you" /></p>
-        <p><strong>Thank You for giving your valuable time to read it, Have A Noice Day 💕</strong></p>
-        <blockquote>
-        <p><strong>Also, If you Liked it, Don't forget to Like, Comment &amp; share &lt;3</strong></p>
-        </blockquote>
-        </div>
-    </div>
     <footer class="footer">
         <div class="footer-header">Connect with me on</div>
+
         <ul class="links social-links list-non-bullets">
             <li class="list-item-inline icon-social"><a class="link" href="https://github.com/ZuberDunge"><i
                         class="fab fa-github social"></i></a></li>
@@ -352,9 +124,12 @@
                         class="fab fa-twitter social"></i></a></li>
             <li class="list-item-inline icon-social"><a class="link" href="mailto:iamZuberDunge@gmail.com"><i
                         class="fas fa-envelope social"></i></a></li>
+            <!-- <li class="list-item-inline icon-social"><a class="link" href="zuberdunge.hashnode.dev"><img class="social custom-icon" src="icons/hashnode.svg"></a></li> -->
         </ul>
         <p>© Made with Love 💕 by <span class="social"><strong> Zuber Dunge </strong></span></p>
     </footer>
+
+
 
 </body>
 </html>

@@ -203,6 +203,7 @@ nav #icon {
         left: 0;
         right: 0;
     }
+    
 }
 
 
@@ -320,8 +321,12 @@ nav #icon {
 
 }
 
+
+
 .skill-color {
     color: var(--secondary-color);
+    font-size: 3rem;
+    margin: 0;
 }
 
 .custom-icon {
