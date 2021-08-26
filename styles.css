@@ -193,7 +193,7 @@ nav #icon {
     nav a.active,
     nav a:hover {
         border: none;
-        color: rgb(0, 246, 74);
+        color: white;
         transition: all .5s;
        background-color: #4338CA;
        padding: auto 50px;
