@@ -13,12 +13,14 @@ body {
 }
 
 .main-intro {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
     display: flex;
     flex-wrap:wrap-reverse;
     justify-content: center;
     width: 100%;
 
-    margin: auto;
+    
     align-items: center;
 }
 
