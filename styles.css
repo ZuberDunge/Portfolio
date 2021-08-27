@@ -57,6 +57,9 @@ hr {
     list-style: none;
 }
 
+.no-left-padding{
+    padding-left: 0;
+}
 
 .list-item-inline {
     display: inline;
@@ -73,11 +76,7 @@ hr {
     box-sizing: border-box;
 }
 
-body {
-    font-family: 'Montserrat', sans-serif;
-    margin: 0%;
 
-}
 
 nav {
     background: #4338CA;
@@ -88,7 +87,7 @@ nav {
 
 label.logo {
     color: white;
-    font-size: 35px;
+    font-size: 28px;
     line-height: 80px;
     padding: 0 100px;
     font-weight: bold;
@@ -137,8 +136,8 @@ nav #icon {
 @media screen (max-width: 1048px) {
 
     label.logo {
-        font-size: 32px;
-        padding-left: 60px;
+        font-size: 28px;
+        padding-left: 40px;
     }
 
     nav ul {
@@ -160,7 +159,7 @@ nav #icon {
     }
 
     label.logo {
-        font-size: 32px;
+        font-size: 28px;
         padding-left: 40px;
         padding-right: 0px;
     }
