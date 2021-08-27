@@ -1,5 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+
+:root {
+    --primary-color: #4338CA;
+    --Secondary-color: #191F42;
+    --light: #E0E7FF;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px;
+}
+
+.main-intro {
+    display: flex;
+    flex-wrap:wrap-reverse;
+    justify-content: center;
+    width: 100%;
+
+    margin: auto;
+    align-items: center;
+}
+
+.hey-heading {
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: var(--primary-color);
+    padding: 2rem;
+}
+
+.zuber-heading {
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--Secondary-color);
+    
+}
+
+.web-dev-heading {
+    font-size: 3rem;
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
 .grid-skill {
- 
+
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 1rem;
@@ -7,10 +51,77 @@
     margin: auto;
     max-width: 1000px;
     width: 100%;
+    transition: all 1s;
+
+}
+
+.html-img:hover {
+    background-color: #4338CA;
+    transition: all 0.5s;
+    border-radius: 1rem;
+    padding: 1rem;
+    color: white;
+}
+
+.css-img:hover {
+    background-color: #4338CA;
+    transition: all 0.5s;
+    border-radius: 1rem;
+    padding: 1rem;
+    color: white;
+}
+
+.node-img:hover {
+    background-color: #4338CA;
+    transition: all 0.5s;
+    border-radius: 1rem;
+    padding: 1rem;
+    color: white;
+}
+
+.git-img:hover {
+    background-color: #4338CA;
+    transition: all 0.5s;
+    border-radius: 1rem;
+    padding: 1rem;
+    color: white;
+}
+
+.js-img:hover {
+    background-color: #4338CA;
+    transition: all 0.5s;
+    border-radius: 1rem;
+    padding: 1rem;
+    color: white;
+}
+
+.react-img:hover {
+    background-color: #4338CA;
+    transition: all 0.5s;
+    border-radius: 1rem;
+    padding: 1rem;
+    color: white;
+}
+
+.host-img:hover {
+    background-color: #4338CA;
+    transition: all 0.5s;
+    border-radius: 1rem;
+    padding: 1rem;
+    color: white;
+}
+
+.goog-img:hover {
+    background-color: #4338CA;
+    transition: all 0.5s;
+    border-radius: 1rem;
+    padding: 1rem;
+    color: white;
 }
 
 .grid-skill img {
     height: 125px;
+    transition: all 1s;
 
 }
 
@@ -20,7 +131,7 @@
     flex-direction: column;
 }
 
-.grid-skill-img div{
+.grid-skill-img div {
     font-weight: bold;
 }
 
@@ -29,23 +140,90 @@
     .grid-skill {
         display: grid;
         grid-template-columns: 1fr 1fr;
-       
         justify-content: center;
         margin: auto;
         max-width: 600px;
         width: 100%;
     }
-    
+
     .grid-skill img {
         height: 75px;
-    
     }
-    
+
     .skill-color {
         color: var(--secondary-color);
-        font-size: 2rem;
+
         margin: 0;
     }
- 
 
+    .my-heading {
+        font-size: 1rem;
+    }
+
+}
+
+
+.flex-skill-project {
+    display: flex;
+    justify-content: center;
+    max-width: 1000px;
+    width: 100%;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+
+.my-section {
+    width: 400px;
+    height: 300px;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 5px black;
+    margin: 2rem;
+    padding: 2rem;
+    box-sizing: border-box;
+    background-color: #FFDEE9;
+    background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+
+.my-heading {
+    color: var(--secondary-color);
+    font-size: 2rem;
+    font-weight: bold;
+
+}
+
+.sub-text-my-section {
+    font-size: 1.2rem;
+    margin: 1rem;
+}
+
+
+.my-section-button {
+    background-image: linear-gradient(to right, #DA22FF 0%, #9733EE 51%, #DA22FF 100%)
+}
+
+.my-section-button {
+    margin: 10px;
+    padding: 15px 35px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+    text-decoration: none;
+}
+
+.my-section-button:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
 }

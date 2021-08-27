@@ -321,6 +321,11 @@ nav #icon {
 
 }
 
+.project-name-heading{
+    color: var(--secondary-color);
+    margin-bottom: 0;
+    font-size: 2em;
+}
 
 
 .skill-color {
