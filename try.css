@@ -16,11 +16,11 @@ body {
     margin-top: 5rem;
     margin-bottom: 5rem;
     display: flex;
-    flex-wrap:wrap-reverse;
+    flex-wrap: wrap-reverse;
     justify-content: center;
     width: 100%;
 
-    
+
     align-items: center;
 }
 
@@ -29,13 +29,14 @@ body {
     font-weight: bold;
     color: var(--primary-color);
     padding: 2rem;
+    line-height: 3rem;
 }
 
 .zuber-heading {
     font-size: 2rem;
     font-weight: bold;
     color: var(--Secondary-color);
-    
+
 }
 
 .web-dev-heading {
@@ -162,6 +163,32 @@ body {
         font-size: 1rem;
     }
 
+
+    .main-intro {
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .hey-heading {
+        font-size: 3.5rem;
+        font-weight: bold;
+        color: var(--primary-color);
+        padding: 2rem;
+    }
+
+    .zuber-heading {
+        font-size: 2rem;
+        font-weight: bold;
+        color: var(--Secondary-color);
+
+    }
+
+    .web-dev-heading {
+        font-size: 3rem;
+        font-weight: bold;
+        color: var(--primary-color);
+    }
+
 }
 
 
@@ -177,9 +204,9 @@ body {
 
 .my-section {
     width: 400px;
-    height: 300px;
+    height: fit-content;
     border-radius: 1rem;
-    box-shadow: 5px 5px 5px black;
+    box-shadow: 5px 5px 5px rgb(57, 7, 116);
     margin: 2rem;
     padding: 2rem;
     box-sizing: border-box;
@@ -189,8 +216,15 @@ body {
     flex-direction: column;
     text-align: center;
     align-items: center;
+    transition: all 1s;
+    
 }
 
+.my-section:hover {
+  color: white;
+  background: #4338CA;
+    box-shadow: none;
+}
 
 .my-heading {
     color: var(--secondary-color);
@@ -217,7 +251,7 @@ body {
     transition: 0.5s;
     background-size: 200% auto;
     color: white;
-    box-shadow: 0 0 20px #eee;
+ 
     border-radius: 10px;
     display: block;
     text-decoration: none;
@@ -227,5 +261,6 @@ body {
     background-position: right center;
     /* change the direction of the change here */
     color: #fff;
+    box-shadow: 0 0 5px #eee;
     text-decoration: none;
 }
