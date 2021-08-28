@@ -156,7 +156,7 @@ body {
     padding: 1rem;
     margin: auto;
     margin-top: 1rem;
-    box-shadow: 0px 5px 5px var(--primary-color);
+    box-shadow: 5px 5px 5px rgb(223 186 186);
     max-width: 800px;
     width: 90%;
 }
@@ -196,17 +196,26 @@ body {
 }
 
 .primary-button{
-    background-color:var(--Secondary-color);
-    border-radius: 1rem;
-    box-sizing: border-box;
+    background-image: linear-gradient(to right, #DA22FF 0%, #9733EE 51%, #DA22FF 100%);
+    border: 1px solid transparent;
+    border-radius: 2rem;
+    
     color: white;
 }
 
 .secondary-button{
-    background-color: white;
-    border: 2px solid var(--primary-color);
-    box-sizing: border-box;
-    border-radius: 1rem;
+    border: 1px solid var(--primary-color);
+    background-color: white;    
+    
+    border-radius: 2rem;
+    transition: all 0.5s;
+}
+.secondary-button:hover{
+    border: 1px solid transparent;
+    background-image: linear-gradient(to right, #DA22FF 0%, #9733EE 51%, #DA22FF 100%);  
+    
+    color: white;
+    border-radius: 2rem;
     
 }
 
@@ -253,7 +262,7 @@ color: var(--Secondary-color);
         box-sizing: border-box;
         padding: 1rem 1rem 2rem 1rem;
         margin: 1rem;
-        box-shadow: 0px 5px 5px rgb(223, 186, 186);
+        box-shadow: 5px 5px 5px rgb(223, 186, 186);
         max-width: 800px;
         width: 90%;
     }
@@ -391,7 +400,6 @@ color: var(--Secondary-color);
 
 .my-section-button:hover {
     background-position: right center;
-    /* change the direction of the change here */
     color: #fff;
     box-shadow: 0 0 5px #eee;
     text-decoration: none;
