@@ -176,8 +176,8 @@ body {
     height: fit-content;
     border-radius: 1rem;
     box-shadow: 5px 5px 5px rgb(57, 7, 116);
-    margin: 2rem;
-    padding: 2rem;
+    margin: 1.5rem;
+    padding: 1.5rem;
     box-sizing: border-box;
     background-color: #FFDEE9;
     background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
@@ -218,6 +218,39 @@ body {
     border-radius: 2rem;
     
 }
+
+/* blog page */
+
+.blog-page-tile{
+width: 100%;
+margin-bottom: 1rem;
+}
+
+
+.my-blog-section {
+    width: 500px;
+    height: fit-content;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 5px rgb(57, 7, 116);
+    margin: 2rem;
+    padding: 2rem;
+    box-sizing: border-box;
+    background-color: #FFDEE9;
+    background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    transition: all 1s;
+
+}
+
+.my-blog-section:hover {
+    color: white;
+    background: #4338CA;
+    box-shadow: none;
+}
+
 
 
 /* 404 page */
@@ -348,8 +381,8 @@ color: var(--Secondary-color);
     height: fit-content;
     border-radius: 1rem;
     box-shadow: 5px 5px 5px rgb(57, 7, 116);
-    margin: 2rem;
-    padding: 2rem;
+    margin: 1.5rem;
+    padding: 1.5rem;
     box-sizing: border-box;
     background-color: #FFDEE9;
     background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);

@@ -210,7 +210,8 @@ nav #icon {
 /**header**/
 
 .hero {
-    padding: 2rem;
+    padding: 2rem 2rem 0 2rem;
+
 }
 
 .hero-img {
@@ -228,6 +229,7 @@ nav #icon {
     padding-top: 1rem;
     color: var(--Secondary-color);
     text-align: center;
+    margin-bottom: 0.5rem;
 }
 
 /**Section**/
@@ -325,8 +327,12 @@ nav #icon {
     color: var(--secondary-color);
     margin: 0px;
     font-size: 1.5em;
+    font-weight: bold;
 }
 
+.blog-project-heading-big{
+font-size: 3em;
+}
 
 .skill-color {
     color: var(--secondary-color);
