@@ -254,20 +254,81 @@ margin-bottom: 1rem;
 
 
 /* 404 page */
+
+.flex-404{
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+margin: auto;
+max-width: 1000px;
+width: 100%;
+}
+
+.container-404-1{
+    font-weight: bold;
+    text-align: left;
+    width: 50%;
+    font-size: 2.5rem;
+   color: var(--Secondary-color);
+   margin: 1rem;
+}
+
 .container-404{
     margin: auto;
     text-align: center;
     max-width: 1000px;
     width: 100%;
-    height: 80vh;
+    height: 100%;
 }
+
 .heading-404{
 text-align: center;
 font-size: 16rem;
 font-weight: bolder;
 color: var(--Secondary-color);
+transition: all 0.5s;
+}
+.hover-404{
+    transition: all 0.5s;
+    }
+
+    
+.hover-404:hover{
+color: var(--primary-color);
+text-shadow: 2px 2px 2px var(--Secondary-color);
 }
 
+.sub-heading-404{
+    text-align: center;
+    font-size: 5.2rem;
+    font-weight: bolder;
+    color: var(--Secondary-color);
+    }
+
+    .my-blog-404 {
+        width: 500px;
+        height: fit-content;
+        border-radius: 1rem;
+        box-shadow: 5px 5px 5px rgb(57, 7, 116);
+        margin: 1rem;
+        padding: 2rem;
+        box-sizing: border-box;
+        background-color: #FFDEE9;
+        background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        transition: all 1s;
+    
+    }
+    
+    .my-blog-404:hover {
+        color: white;
+        background: #4338CA;
+        box-shadow: none;
+    }
 
 
 @media screen and (min-width: 320px) and (max-width: 800px) {
@@ -278,7 +339,7 @@ color: var(--Secondary-color);
     text-align: center;
     max-width: 1000px;
     width: 90%;
-    height: 80vh;
+    height: 100%;
 }
 .heading-404{
 text-align: center;
@@ -286,6 +347,62 @@ font-size: 8rem;
 font-weight: bolder;
 color: var(--Secondary-color);
 }
+.sub-heading-404 {
+   
+    font-size: 3rem;
+    
+}
+
+.flex-404{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    max-width: 1000px;
+    width: 90%;
+    
+    }
+    
+    .container-404-1{
+       margin-top: 2rem;
+        text-align: center;
+        width: 90%;
+        font-size: 1.5rem;
+    }
+    
+
+    .my-blog-404 {
+        width: 90%;
+        height: fit-content;
+        border-radius: 1rem;
+        box-shadow: 5px 5px 5px rgb(57, 7, 116);
+        margin:auto;
+        padding: 2rem;
+        box-sizing: border-box;
+        background-color: #FFDEE9;
+        background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        transition: all 1s;
+    
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
