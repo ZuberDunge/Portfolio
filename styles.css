@@ -334,6 +334,12 @@ nav #icon {
 font-size: 3em;
 }
 
+.skill-color-blog-section {
+    color: var(--secondary-color);
+    font-size: 1.5rem;
+    margin: 0;
+}
+
 .skill-color {
     color: var(--secondary-color);
     font-size: 2.5rem;
