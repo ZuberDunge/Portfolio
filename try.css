@@ -138,7 +138,108 @@ body {
     font-weight: bold;
 }
 
+
+/* project-page */
+
+.project-list {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-item {
+    border-radius: 1rem;
+    border: 2px solid transparent;
+    box-sizing: border-box;
+    padding: 1rem;
+    margin: auto;
+    margin-top: 1rem;
+    box-shadow: 0px 5px 5px var(--primary-color);
+    max-width: 800px;
+    width: 90%;
+}
+
+.project-item:hover {
+    
+    box-shadow:none;
+    background-color: #4338CA;
+    transition: all 0.5s;
+    
+    
+    color: white;
+}
+
+.my-section {
+    width: 400px;
+    height: fit-content;
+    border-radius: 1rem;
+    box-shadow: 5px 5px 5px rgb(57, 7, 116);
+    margin: 2rem;
+    padding: 2rem;
+    box-sizing: border-box;
+    background-color: #FFDEE9;
+    background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    transition: all 1s;
+
+}
+
+.my-section:hover {
+    color: white;
+    background: #4338CA;
+    box-shadow: none;
+}
+
+.primary-button{
+    background-color:var(--Secondary-color);
+    border-radius: 1rem;
+    box-sizing: border-box;
+    color: white;
+}
+
+.secondary-button{
+    background-color: white;
+    border: 2px solid var(--primary-color);
+    box-sizing: border-box;
+    border-radius: 1rem;
+    
+}
+
+
+
+
 @media screen and (min-width: 320px) and (max-width: 800px) {
+
+
+    .project-item {
+        border-radius: 1rem;
+        border: 2px solid transparent;
+        box-sizing: border-box;
+        padding: 1rem 1rem 2rem 1rem;
+        margin: 1rem;
+        box-shadow: 0px 5px 5px rgb(223, 186, 186);
+        max-width: 800px;
+        width: 90%;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     .grid-skill {
         display: grid;
@@ -217,12 +318,12 @@ body {
     text-align: center;
     align-items: center;
     transition: all 1s;
-    
+
 }
 
 .my-section:hover {
-  color: white;
-  background: #4338CA;
+    color: white;
+    background: #4338CA;
     box-shadow: none;
 }
 
@@ -251,7 +352,7 @@ body {
     transition: 0.5s;
     background-size: 200% auto;
     color: white;
- 
+
     border-radius: 10px;
     display: block;
     text-decoration: none;
