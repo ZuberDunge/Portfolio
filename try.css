@@ -333,6 +333,16 @@ text-shadow: 2px 2px 2px var(--Secondary-color);
 
 @media screen and (min-width: 320px) and (max-width: 800px) {
 
+    .hero-img {
+        
+        width: 100%;
+        margin-top: 0rem;
+        margin-bottom: 0rem;
+    
+    }
+
+
+
 /* 404 page */
 .container-404{
     margin: auto;
