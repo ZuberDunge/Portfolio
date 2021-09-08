@@ -335,7 +335,7 @@ text-shadow: 2px 2px 2px var(--Secondary-color);
 
     .hero-img {
         
-        width: 100%;
+        width: 90%;
         margin-top: 0rem;
         margin-bottom: 0rem;
     
@@ -474,7 +474,7 @@ color: var(--Secondary-color);
         font-size: 3.5rem;
         font-weight: bold;
         color: var(--primary-color);
-        padding: 2rem;
+        padding-top: 0rem;
     }
 
     .zuber-heading {
