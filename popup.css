@@ -1,8 +1,8 @@
 
 /* popup */
 .box-item-add {
-    position: absolute;
-    top: 10%;
+    position: fixed;
+    top: 30%;
     left: 0;
     right: 0;
    width: fit-content;
@@ -64,6 +64,7 @@
   
     /* popup */
 .box-item-add {  
+    top: 10%;
     width:90%;
     height: fit-content;   
     box-sizing: border-box; 
