@@ -1,0 +1,88 @@
+
+/* popup */
+.box-item-add {
+    position: absolute;
+    top: 10%;
+    left: 0;
+    right: 0;
+   width: fit-content;
+    height: fit-content;
+    background-color: #4338CA;   
+    box-shadow: 10px 10px 10px #0a0a0a29;   
+    margin: auto;
+    padding: 1rem;
+     --webkit-backdrop-filter: blur(5px);
+     display: flex;
+    border-radius: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+.box-item-add img{
+    width: 200px;
+    
+}
+.subheading {
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+    padding-top: 1rem;
+    font-weight: 600;
+}
+.div-center{
+    margin: auto;
+    text-align: center;
+}
+
+
+
+.add-btn-popup {
+    margin-top: 1rem;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: white;
+    border-radius: 0.5rem;
+    color: var(--primary-color);
+    align-items: center;
+    margin: auto;
+    margin-bottom: 0;
+    display: inline-block;
+    cursor: pointer;
+    width: 300px;
+    box-sizing: border-box;
+}
+
+.blur-popup{
+    filter: blur(10px);
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 800px) {
+
+  
+    /* popup */
+.box-item-add {  
+    width:90%;
+    height: fit-content;   
+    box-sizing: border-box; 
+}
+.welcome-gif img{
+   
+   width: 100%;
+  
+
+}
+}
+
+.welcome-gif img{
+    position: absolute;
+    top: 25%;
+    left: 0;
+    right: 0;
+   width: 100%;
+   display: block;
+   margin: auto;
+
+}
