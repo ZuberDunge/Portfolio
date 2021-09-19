@@ -16,3 +16,27 @@ checkButton.addEventListener("click", () => {
 }, 1000);
 addPopup.innerText ="Almost there!"
 });
+
+
+
+
+const formPopUp = document.querySelector('.wrapper');
+const contatcBtn = document.querySelector('#contact-btn');
+
+contatcBtn.addEventListener("click", () => {
+
+
+    formPopUp.style.display = `block`;
+
+//     setTimeout(function(){  
+         
+//             blurPage.style.filter = `none`;   
+     
+
+//             boxHide.style.display = `none`;
+            
+// }, 1000);
+// addPopup.innerText ="Almost there!"
+});
+
+

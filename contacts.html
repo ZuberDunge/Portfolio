@@ -27,6 +27,7 @@
     <script src="https://kit.fontawesome.com/7179336733.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
     <script src=".//app.js"></script>
+    <link rel="stylesheet" href="popup.css">
 </head>
 <body>
     <div class="nav-container">
@@ -39,8 +40,26 @@
 
             <label id="icon">  <i class="fas fa-bars"></i>   </label>
     </nav> </div>
+<br><br><br>
+<div class="contact-form">
 
 
+    <form name="contact" method="POST" data-netlify="true">
+        <div class="flex-names">
+          <div><label>Your Name: </label><input required type="text" name="fname" id="user-fname-input"/> </div>  
+          <div><label>Twitter Username: </label><input required type="text" name="lname" id="user-lname-input"/> </div>  
+        </div>
+          <div id="user-email-input"> <label>Your Email: </label><input required type="email" name="email" /></div>
+     
+          <div id="user-mssg-input"> <label>Message: </label><textarea required name="message" type="text"></textarea></div>
+      
+          <button id="submit-form" type="submit">Send</button>
+      
+      </form>
+
+
+
+    </div>
 
 
 
