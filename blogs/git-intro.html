@@ -25,11 +25,44 @@
     <link rel="shortcut icon" type="image/png" href="fav.ico.png" />
     <script src="https://kit.fontawesome.com/7179336733.js" crossorigin="anonymous"></script>
     <link href="../styles.css" rel="stylesheet" />
+    <link rel="stylesheet" href="../try.css">
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
     <script src="./../app.js"></script>
+
+
+
+    <style>
+
+
+.btn-grad-404 {
+           
+            width: 100%;
+            box-sizing: border-box;
+            padding: 15px 45px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: var(--primary-color);            
+            border: 2px solid var(--primary-color);
+            border-radius: 10px;
+            display: block;
+            font-size: 1.4rem;
+            transition: all 0.5s;
+            color: var(--primary-color);
+          }
+
+          .btn-grad-404:hover {
+            background-position: right left; /* change the direction of the change here */
+      background-color: var(--primary-color);
+      color: white;
+            text-decoration: none;
+          }
+         
+</style>
 </head>
 <body>
-    <div class="nav-container">
+    <div class="nav-container" id="page-top">
         <nav>
             <label class="logo">/ZuberXD\</label>
             <ul><li><a href="./../index.html">Home</a></li>
@@ -268,7 +301,7 @@
             services are the key to fast and effective software development. The most popular ones based on Git are
             GitHub, Bitbucket, and GitLab.</p>
         <h3 class="skill-color-blog-section">GitHub</h3>
-        <p class="skill-color-blog-section">GitHub is a git-based repository host originally launched in 2008 by Tom Preston-Werner,
+        <p>GitHub is a git-based repository host originally launched in 2008 by Tom Preston-Werner,
             Chris Wanstrath, and
             PJ Hyatt. It is the largest repository hosting platform with more than 38 million projects. It permits to
             host and review code, manage projects and build software.</p>
@@ -293,8 +326,8 @@
         <p><i>LOL! (Lots of Love)</i></p>
 
         <img class="post-img" src="../images/git-concluion.png">
-        <p class="skill-color-blog-section">Also, Don't forget to share.</p>
-        <p class="link-color link-secondary center-button"><a href="#page-top">Go Up</a></p>
+        <p>Also, Don't forget to share.</p>
+        <a class="btn-grad-404" href="#page-top">Go Up</a>
 
 
     </div>
