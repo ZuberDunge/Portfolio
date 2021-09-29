@@ -27,7 +27,13 @@ function hasOneDayPassed(){
     // alert('Good morning!');
     blurPage.style.filter = `block`;
     boxHide.style.display = `blur(8px)`;
-    checkButton.addEventListener("click", showPopup);
+    checkButton.addEventListener("click", ()=>{
+            setTimeout(function(){         
+                blurPage.style.filter = `none`;
+                boxHide.style.display = `none`;            
+                }, 1000);
+                addPopup.innerText ="Almost there!"
+                });
 
   }
   
@@ -37,15 +43,15 @@ function hasOneDayPassed(){
 
 
 
-function showPopup(){
-    setTimeout(function(){  
+// function showPopup(){
+//     setTimeout(function(){  
          
-        blurPage.style.filter = `none`;
-        boxHide.style.display = `none`;
+//         blurPage.style.filter = `none`;
+//         boxHide.style.display = `none`;
         
-}, 1000);
-addPopup.innerText ="Almost there!"
-}
+// }, 1000);
+// addPopup.innerText ="Almost there!"
+// }
 
 
 
