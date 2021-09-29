@@ -37,14 +37,6 @@ function hasOneDayPassed(){
 
 
 
-
-
-
-  blurPage.style.filter = `none`;
-  boxHide.style.display = `none`;
-
-
-
 function showPopup(){
     setTimeout(function(){  
          
