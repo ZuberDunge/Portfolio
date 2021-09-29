@@ -4,18 +4,62 @@ const mainPage = document.querySelector('#main-page');
 const blurPage = document.querySelector('.blur-popup');
 const addPopup = document.querySelector('.add-btn-popup');
 
-checkButton.addEventListener("click", () => {
 
+
+
+function hasOneDayPassed(){
+  
+    const date = new Date().toLocaleDateString();
+  
+    if( localStorage.yourapp_date == date ) 
+        return false;
+  
+    localStorage.yourapp_date = date;
+    return true;
+  }
+  
+  
+  // some function which should run once a day
+  function runOncePerDay(){
+    if( !hasOneDayPassed() ) return false;
+  
+    // your code below
+    // alert('Good morning!');
+    blurPage.style.filter = `block`;
+    boxHide.style.display = `blur(8px)`;
+    checkButton.addEventListener("click", showPopup);
+
+  }
+  
+  
+  runOncePerDay(); // run the code
+  runOncePerDay(); // does not run the code
+
+
+
+
+
+
+  blurPage.style.filter = `none`;
+  boxHide.style.display = `none`;
+
+
+
+function showPopup(){
     setTimeout(function(){  
          
-            blurPage.style.filter = `none`;   
-     
-
-            boxHide.style.display = `none`;
-            
+        blurPage.style.filter = `none`;
+        boxHide.style.display = `none`;
+        
 }, 1000);
 addPopup.innerText ="Almost there!"
-});
+}
+
+
+
+
+
+
 
 
 
