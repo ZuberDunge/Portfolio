@@ -25,8 +25,9 @@ function hasOneDayPassed(){
   
     // your code below
     // alert('Good morning!');
-    blurPage.style.filter = `block`;
-    boxHide.style.display = `blur(8px)`;
+    blurPage.style.filter = `blur(8px)`;
+    boxHide.style.display = `block`;
+    
     checkButton.addEventListener("click", ()=>{
             setTimeout(function(){         
                 blurPage.style.filter = `none`;
@@ -39,7 +40,7 @@ function hasOneDayPassed(){
   
   
   runOncePerDay(); // run the code
-  runOncePerDay(); // does not run the code
+//   runOncePerDay(); // does not run the code
 
 
 
