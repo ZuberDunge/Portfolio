@@ -56,9 +56,11 @@ function hasOneDayPassed(){
 
 
 
+const btnVibrate = document.querySelector("#btn-vibrate")
 
-
-
+btnVibrate.addEventListener("click", (){
+    navigator.vibrate(3000)
+})
 
 
 
