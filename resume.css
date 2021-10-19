@@ -1,0 +1,264 @@
+
+:root{
+    --orange : #E9482B;
+    --blue:#1E365C;
+}
+
+
+body{
+    background-color: var(--orange);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.heading{
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 2rem;
+    text-transform: uppercase;
+    color: var(--blue) ;
+}
+.heading span{
+   /* display: block; */
+   font-weight: 750;
+}
+
+.main-container{
+    background-color: white;
+    margin: 2rem auto;
+    max-width: 900px;
+    padding: 2rem;
+    height: 100%;
+    border: 2rem solid var(--blue);
+}
+
+.header-container {
+  
+   
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    
+    flex-wrap: wrap;
+}
+
+.header-container{
+    /* background-color: blueviolet; */
+    
+    position: relative;
+    
+}
+.heading{
+    font-size:74px;
+    font-weight: 700;
+    line-height: 4rem;
+    text-transform: uppercase;
+}
+.heading span{
+   /* display: block; */
+}
+
+.contact ul li{
+    text-align: right;
+    list-style-type: none;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 0.5rem;
+}
+.contact-icons{
+   color: var(--orange) ;
+   font-size: 1.5rem;
+
+  
+}
+
+.heading-name{
+    transition: all 0.2s;
+    }
+
+    
+.heading-name:hover{
+color: var(--orange);
+text-shadow: 2px 2px 2px var(--blue);
+}
+
+.hover-effect{
+    transition: all 0.3s;
+    }
+
+    
+.hover-effect:hover{
+color: var(--orange);
+text-shadow: 2px 2px 2px var(--blue);
+}
+
+.contact-icons:hover{
+    color: var(--blue) ;
+    font-size: 1.5rem;
+   
+ }
+
+.fs1-5rem{
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--blue);
+}
+
+.textright{
+    text-align: right;
+}
+
+.fs2rem{
+    font-size: 30px;
+    font-weight: bold;
+    color: var(--blue);
+}
+
+.line{
+    position: absolute;
+    top: 210px;
+    right: 0;
+    left: 0;
+    width: 95%;
+  
+}
+.mar2rem{
+    margin-top: 2rem;
+}
+
+.portfolio-link{
+    font-size: 16.1494px;
+    color: rgb(0, 0, 0);
+    line-height: 1.4;
+    font-weight: 520;
+}
+
+.project-headings{
+    margin-top: 1rem;
+    font-size: 16.1494px;
+    color: rgb(30, 54, 92);
+    line-height: 1.4;
+    font-weight:700;
+    /* text-decoration: underline; */
+}
+
+.list-style-none{
+    list-style-type: none;
+}
+
+.first-half{
+    width: 430px;
+}
+.second-half{
+    width: 430px;
+}
+
+.tech-skill{
+    display: inline-block;
+    background-color: var(--blue);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 0.4rem;
+    font-weight: 500;
+    margin-right: 0.25rem;
+    margin-top: 0.5rem;
+    font-size: 18px;
+    cursor: pointer;
+    
+}
+.tech-skill:hover{
+ 
+    background-color: var(--orange);
+transition: 0.5s all;  
+
+    
+}
+.line-above{
+    
+    text-decoration: overline;
+}
+
+.line-below{
+    text-decoration: underline;
+}
+
+hr {
+    border: none;
+    height: 3px;
+    color: var(--blue);
+    background-color: var(--blue);
+}
+
+.bolder{
+    font-weight: 750;
+}
+
+.skills li{
+    font-weight: 600;
+
+}
+
+ul , .skills{
+   
+    margin-left: -1rem;
+}
+
+.bold600{
+    font-weight: 600;
+}
+.bold700{
+    font-weight: 700;
+}
+
+.bold500{
+    font-weight: 500;
+}
+.first-half ul li{
+    font-weight: 500;
+}
+.marbot1rem{
+    margin-bottom: 1rem;
+}
+
+.first{
+    width: 430px;
+}
+.second{
+    width: 430px;
+}
+.hide-on-phone{
+    display: block;
+}
+
+.hide-on-web{
+    display: none;
+}
+@media screen and (max-width: 900px) {
+    .main-container{       
+        margin: 0rem auto;
+        max-width: 900px;
+        padding: 1rem;
+        height: 100%;
+        border: 1rem solid var(--blue);
+    }
+    .contact ul li{
+        justify-content: start;
+        padding-inline-start: 00px;
+    }
+    .contact ul{      
+        padding-inline-start: 20px;
+    }
+    .hide-on-phone{
+        display: none;
+    }
+    .hide-on-web{
+        display: block;
+    }
+}
+
+.hr{
+    display: block;
+    width: 66%;
+    float: left;
+}
