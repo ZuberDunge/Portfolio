@@ -24,11 +24,12 @@ body{
 
 .main-container{
     background-color: white;
-    margin: 2rem auto;
-    max-width: 900px;
+    margin:  auto;
+    max-width: 850px;
     padding: 2rem;
     height: 100%;
     border: 2rem solid var(--blue);
+    /* box-sizing: border-box; */
 }
 
 .header-container {
@@ -148,10 +149,10 @@ text-shadow: 2px 2px 2px var(--blue);
 }
 
 .first-half{
-    width: 430px;
+    width: 400px;
 }
 .second-half{
-    width: 430px;
+    width: 400px;
 }
 
 .tech-skill{
@@ -222,10 +223,10 @@ ul , .skills{
 }
 
 .first{
-    width: 430px;
+    width: 400px;
 }
 .second{
-    width: 430px;
+    width: 400px;
 }
 .hide-on-phone{
     display: block;
@@ -234,7 +235,7 @@ ul , .skills{
 .hide-on-web{
     display: none;
 }
-@media screen and (max-width: 900px) {
+/* @media screen and (max-width: 900px) {
     .main-container{       
         margin: 0rem auto;
         max-width: 900px;
@@ -257,7 +258,7 @@ ul , .skills{
     }
     
    
-}
+} */
 
 .hr{
     display: block;
