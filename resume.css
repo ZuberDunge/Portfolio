@@ -3,13 +3,19 @@
     --orange : #E9482B;
     --blue:#1E365C;
 }
-
+.mar1rem{
+    margin-top: 1rem;
+}
 
 body{
     background-color: var(--orange);
     font-family: 'Montserrat', sans-serif;
 }
-
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .heading{
     font-size: 64px;
     font-weight: 700;
@@ -91,7 +97,7 @@ text-shadow: 2px 2px 2px var(--blue);
     
 .hover-effect:hover{
 color: var(--orange);
-text-shadow: 2px 2px 2px var(--blue);
+/* text-shadow: 2px 2px 2px var(--blue); */
 }
 
 .contact-icons:hover{
@@ -219,9 +225,11 @@ ul , .skills{
     font-weight: 500;
 }
 .marbot1rem{
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
 }
-
+ul{
+    margin-top: 0;
+}
 .first{
     width: 400px;
 }
