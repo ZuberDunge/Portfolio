@@ -262,3 +262,7 @@ ul , .skills{
     width: 66%;
     float: left;
 }
+
+.flexreverse{
+    flex-wrap:wrap-reverse
+}
