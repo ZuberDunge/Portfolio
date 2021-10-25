@@ -379,6 +379,7 @@ text-shadow: 2px 2px 2px var(--Secondary-color);
     
     .skills-home img {
         padding-top: 1rem;
+        padding-bottom: 1rem;
         width: 280px
     }
 
@@ -489,7 +490,7 @@ color: var(--Secondary-color);
         justify-content: center;
         margin: auto;
         max-width: 600px;
-        width: 100%;
+        width: 90%;
         padding-top: 0;
         padding-bottom: 0.5rem;
     }
