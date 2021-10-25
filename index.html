@@ -30,174 +30,206 @@
     <script src="https://kit.fontawesome.com/7179336733.js" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
     <script src=".//app.js"></script>
-   
+
     <link rel="stylesheet" href="try.css">
+
+    <style>
+        .flex-grid {
+            display: flex;
+            margin: auto;
+            max-width: 800px;
+            width: 100%;
+            gap: 1rem;
+            justify-content: space-between;
+            align-items: center;          
+        }
+
+        .skills-home img {
+            height: 320px;
+        }
+    </style>
 
 </head>
 
 <body translate="no">
-    <div class="blur-popup" style="filter: none;"> 
-    <div class="nav-container">
-        <nav>
-            <label class="logo" translate="no">/ZuberXD\</label>
-            <ul>
-                <li><a class="active" href="#" translate="no">Home</a></li>
-                <li><a href="./projects.html" translate="no">Projects</a></li>
-                <li><a href="./blogs.html" translate="no">Blogs</a></li>
-                <!-- <li><a href="#">Contact</a></li>-->
-            </ul>
+    <div class="blur-popup" style="filter: none;">
+        <div class="nav-container">
+            <nav>
+                <label class="logo" translate="no">/ZuberXD\</label>
+                <ul>
+                    <li><a class="active" href="#" translate="no">Home</a></li>
+                    <li><a href="./projects.html" translate="no">Projects</a></li>
+                    <li><a href="./blogs.html" translate="no">Blogs</a></li>
+                    <!-- <li><a href="#">Contact</a></li>-->
+                </ul>
 
-            <label id="icon"> <i class="fas fa-bars"></i> </label>
-        </nav>
-    </div>
+                <label id="icon"> <i class="fas fa-bars"></i> </label>
+            </nav>
+        </div>
 
 
-    <!-- <header class="hero">
+        <!-- <header class="hero">
         <img class="hero-img" src="images/index2.svg">
         <h1 class="hero-heading">Heya!!! I'm Zuber,<br>
             <span style="font-size: 3rem; color: var(--primary-color); flex: 50%"> A Web Developer.</span></h1>
     </header> -->
 
-    <div class="main-intro" translate="no">
+        <div class="main-intro" translate="no">
 
-        <div class="hey-heading">Heya!!! <br>
-            <span class="zuber-heading"> I'm Zuber Dunge,</span><br>
-            <span class="web-dev-heading"> A Web Developer.</span></div>
-        <div><img class="hero-img" src="./Typing.gif"></div>
+            <div class="hey-heading">Heya!!! <br>
+                <span class="zuber-heading"> I'm Zuber Dunge,</span><br>
+                <span class="web-dev-heading"> A Web Developer.</span>
+            </div>
+            <div><img class="hero-img" src="./Typing.gif"></div>
+        </div>
+
+
+
+        <section class="section ow">
+            <div class="container center-button container-center">
+                <h1 class="skill-color skill-heading">My Skills</h1>
+            </div>
+            <br>
+
+            <div class="flex-grid">
+                <div class="skills-home">
+                    <img src="./images/skill-hero.svg" alt="">
+                </div>
+
+                <div class="grid-skill">
+                    <div class="grid-skill-img html-img">
+                        <img src="./images/skills/html.svg" alt="">
+                        <div> HTML</div>
+                    </div>
+                    <div class="grid-skill-img css-img">
+                        <img src="./images/skills/css.svg" alt="">
+                        <div> CSS3</div>
+                    </div>
+                    <div class="grid-skill-img js-img">
+                        <img src="./images/skills/js.svg" alt="">
+                        <div> JavaScript</div>
+                    </div>
+                    <div class="grid-skill-img node-img">
+                        <img src="./images/skills/nodejs.svg" alt="">
+                        <div> NodeJS</div>
+                    </div>
+                    <div class="grid-skill-img react-img">
+                        <img src="./images/skills/react.svg" alt="">
+                        <div> ReactJS</div>
+                    </div>
+                    <div class="grid-skill-img git-img">
+                        <img src="./images/skills/git.svg" alt="">
+                        <div> Git</div>
+                    </div>
+                    <div class="grid-skill-img host-img">
+                        <img src="./images/skills/hosting.svg" alt="">
+                        <div> Web Hosting</div>
+                    </div>
+                    <div class="grid-skill-img goog-img">
+                        <img src="./images/skills/Bootstrap.svg" alt="">
+                        <div> Bootstrap</div>
+                    </div>
+                    <div class="grid-skill-img goog-img">
+                        <img src="./images/skills/google.svg" alt="">
+                        <div> Googling</div>
+                    </div>
+                </div>
+            </div>
+
+
+            <br>
+            <p class="center-button"><B>I'm Good at Graphics Designing too :) </B></p>
+        </section>
+
+
+
+
+
+        <div class="flex-skill-project">
+
+            <div class="my-section my-section-hover">
+
+                <div class="my-heading">My Projects</div>
+                <div class="sub-text-my-section">I like to showcase my work and thus, you can see my projects hosted
+                    online
+                    with source code. Click below to see.</div>
+                <div><a class="my-section-button" href="projects.html">See Projects</a></div>
+
+
+            </div>
+
+            <div class="my-section">
+
+                <div class="my-heading">My Blogs</div>
+                <div class="sub-text-my-section">I am also working on some technical and non techincal blogs. I like to
+                    document my journey of learning.</div>
+                <div><a class="my-section-button" href="blogs.html">See Blogs</a></div>
+
+
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <footer class="footer">
+            <div class="footer-header">Connect with me on</div>
+
+            <ul class="links social-links list-non-bullets">
+                <li class="list-item-inline icon-social"><a class="link" target="_blank"
+                        href="https://github.com/ZuberDunge"><i class="fab fa-github social"></i></a></li>
+                <li class="list-item-inline icon-social"><a class="link" target="_blank"
+                        href="https://www.instagram.com/zuberdunge/"><i class="fab fa-instagram social"></i></a></li>
+                <li class="list-item-inline icon-social"><a class="link" target="_blank"
+                        href="https://www.linkedin.com/in/zuberdunge/"><i class="fab fa-linkedin-in social"></i></a>
+                </li>
+                <li class="list-item-inline icon-social"><a class="link" target="_blank"
+                        href="https://www.twitter.com/zuberdunge/"><i class="fab fa-twitter social"></i></a></li>
+                <li class="list-item-inline icon-social"><a class="link" target="_blank"
+                        href="mailto:iamZuberDunge@gmail.com"><i class="fas fa-envelope social"></i></a></li>
+                <!-- <li class="list-item-inline icon-social"><a class="link" href="zuberdunge.hashnode.dev"><img class="social custom-icon" src="icons/hashnode.svg"></a></li> -->
+            </ul>
+            <p>© Made with Love 💕 by <span class="social"><strong> Zuber Dunge </strong></span></p>
+        </footer>
+
+
+    </div>
+
+    <!-- popup -->
+
+    <div id="box-hide" class="pop-up" style="display: none;">
+        <div class="box-item-add">
+            <img src="./images/3d-gif-transparent-20.png" alt="" srcset="">
+            <div>
+                <div class="subheading">Hey, Welcome!! <br> I'm Robin, Zuber's Virtual Assistant. <br> I'm currently
+                    under constructuion. <br>Click Enter to Get in!
+                </div>
+                <div id="add-btn-popup" style="text-align: center; margin-top:1rem;margin-bottom: 0;"> <span
+                        class="add-btn-popup">Enter</span></div>
+            </div>
+
+        </div>
     </div>
 
 
-
-    <section class="section ow">
-        <div class="container center-button container-center">
-            <h1 class="skill-color skill-heading">My Skills</h1>
-        </div>
-        <br>
-        <div class="grid-skill">
-            <div class="grid-skill-img html-img">
-                <img src="./images/skills/html.svg" alt="">
-                <div> HTML</div>
-            </div>
-            <div class="grid-skill-img css-img">
-                <img src="./images/skills/css.svg" alt="">
-                <div> CSS3</div>
-            </div>
-            <div class="grid-skill-img js-img">
-                <img src="./images/skills/js.svg" alt="">
-                <div> JavaScript</div>
-            </div>
-            <div class="grid-skill-img node-img">
-                <img src="./images/skills/nodejs.svg" alt="">
-                <div> NodeJS</div>
-            </div>
-            <div class="grid-skill-img react-img">
-                <img src="./images/skills/react.svg" alt="">
-                <div> ReactJS</div>
-            </div>
-            <div class="grid-skill-img git-img">
-                <img src="./images/skills/git.svg" alt="">
-                <div> Git</div>
-            </div>
-            <div class="grid-skill-img host-img">
-                <img src="./images/skills/hosting.svg" alt="">
-                <div> Web Hosting</div>
-            </div>
-            <div class="grid-skill-img goog-img">
-                <img src="./images/skills/google.svg" alt="">
-                <div> Googling</div>
-            </div>
-        </div>
-
-
-
-        <br>
-        <p class="center-button"><B>I'm Good at Graphics Designing too :) </B></p>
-    </section>
-
-
-
-
-
-    <div class="flex-skill-project">
-
-        <div class="my-section my-section-hover">
-
-            <div class="my-heading">My Projects</div>
-            <div class="sub-text-my-section">I like to showcase my work and thus, you can see my projects hosted online
-                with source code. Click below to see.</div>
-            <div><a class="my-section-button" href="projects.html">See Projects</a></div>
-
-
-        </div>
-
-        <div class="my-section">
-
-            <div class="my-heading">My Blogs</div>
-            <div class="sub-text-my-section">I am also working on some technical and non techincal blogs. I like to
-                document my journey of learning.</div>
-            <div><a class="my-section-button" href="blogs.html">See Blogs</a></div>
-
-
-        </div>
-    </div>
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <footer class="footer">
-        <div class="footer-header">Connect with me on</div>
-
-        <ul class="links social-links list-non-bullets">
-            <li class="list-item-inline icon-social"><a class="link" target="_blank" href="https://github.com/ZuberDunge"><i
-                        class="fab fa-github social"></i></a></li>
-            <li class="list-item-inline icon-social"><a class="link" target="_blank" href="https://www.instagram.com/zuberdunge/"><i
-                        class="fab fa-instagram social"></i></a></li>
-            <li class="list-item-inline icon-social"><a class="link" target="_blank" href="https://www.linkedin.com/in/zuberdunge/"><i
-                        class="fab fa-linkedin-in social"></i></a></li>
-            <li class="list-item-inline icon-social"><a class="link" target="_blank" href="https://www.twitter.com/zuberdunge/"><i
-                        class="fab fa-twitter social"></i></a></li>
-            <li class="list-item-inline icon-social"><a class="link" target="_blank" href="mailto:iamZuberDunge@gmail.com"><i
-                        class="fas fa-envelope social"></i></a></li>
-            <!-- <li class="list-item-inline icon-social"><a class="link" href="zuberdunge.hashnode.dev"><img class="social custom-icon" src="icons/hashnode.svg"></a></li> -->
-        </ul>
-        <p>© Made with Love 💕 by <span class="social"><strong> Zuber Dunge </strong></span></p>
-    </footer>
-
-    
-</div>
-
-<!-- popup -->
-
-<div id="box-hide" class="pop-up" style="display: none;">
-    <div  class="box-item-add">
-        <img src="./images/3d-gif-transparent-20.png" alt="" srcset="">      
-     <div>   <div class="subheading">Hey, Welcome!! <br> I'm Robin, Zuber's Virtual Assistant. <br> I'm currently under constructuion. <br>Click Enter to Get in!
-        </div>
-       <div id="add-btn-popup" style="text-align: center; margin-top:1rem;margin-bottom: 0;"> <span class="add-btn-popup">Enter</span></div>
-    </div>
-       
-    </div>
-</div>
-
-
-<script src="./index.js"></script>
+    <script src="./index.js"></script>
 
 
 

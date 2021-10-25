@@ -33,7 +33,7 @@
 
 </head>
 
-<body>
+<body id="body">
 
     <div class="main-container">
 
@@ -42,8 +42,12 @@
         <div class="header-container">
             <div class="first">
                 <div class="heading">
-               <div>     <span class="heading-name">Z</span><span class="heading-name">U</span><span class="heading-name">B</span><span class="heading-name">E</span><span class="heading-name">R</span></div>
-                    <div><span class="heading-name">D</span><span class="heading-name">U</span><span class="heading-name">N</span><span class="heading-name">G</span><span class="heading-name">E</span></div>
+                    <div> <span class="heading-name">Z</span><span class="heading-name">U</span><span
+                            class="heading-name">B</span><span class="heading-name">E</span><span
+                            class="heading-name">R</span></div>
+                    <div><span class="heading-name">D</span><span class="heading-name">U</span><span
+                            class="heading-name">N</span><span class="heading-name">G</span><span
+                            class="heading-name">E</span></div>
                 </div>
                 <hr class="hr hide-on-phone">
                 <hr class="hr-new hide-on-web">
@@ -53,7 +57,7 @@
             <div class="second">
                 <!-- web view -->
                 <div class="contact hide-on-phone">
-                    <div class="fs1-5rem hover-effect line-below textright">CONTACT</div>
+                    <div class="fs1-5rem line-below textright">CONTACT</div>
                     <ul>
                         <li>+91 883 066 9389 <i class="fas contact-icons fa-phone-square"></i></li>
                         <li>iamZuberDunge@gmail.com <i class="fas contact-icons fa-envelope-square"></i></li>
@@ -65,7 +69,7 @@
 
                 <!-- phone
                 <div class="contact hide-on-web">
-                    <div class="fs1-5rem hover-effect line-below textleft">CONTACT</div>
+                    <div class="fs1-5rem line-below textleft">CONTACT</div>
                     <ul>
                         <li> <i class="fas contact-icons fa-phone-square"></i> +91 883 066 9389</li>
                         <li> <i class="fas contact-icons fa-envelope-square"></i> iamZuberDunge@gmail.com</li>
@@ -80,12 +84,12 @@
         <hr>
         <div class="header-container flexreverse mar2rem">
             <div class="first-half">
-                <div class="fs1-5rem hover-effect line-below bolder">PORTFOLIO (Projects & Blogs)</div>
+                <div class="fs1-5rem line-below bolder">PORTFOLIO (Projects & Blogs)</div>
                 <div class="portfolio-link">
                     https://zuberdunge.tech
                 </div>
 
-                <div class="fs1-5rem hover-effect line-below mar2rem bolder">PERSONAL PROJETCS</div>
+                <div class="fs1-5rem line-below mar2rem bolder">PERSONAL PROJETCS</div>
 
                 <div class="project-headings">EASSYCSS - OPEN SOURCE </div>
                 <ul>
@@ -148,7 +152,7 @@
             </div>
 
             <div class="second-half">
-                <div class="fs1-5rem hover-effect line-below bolder">TECH STACK</div>
+                <div class="fs1-5rem line-below bolder">TECH STACK</div>
                 <div class="tech-skills">
                     <span class="tech-skill"><i class="fab fa-html5"></i> HTML5</span>
                     <span class="tech-skill"><i class="fab fa-css3"></i> CSS3</span>
@@ -162,7 +166,7 @@
 
                 </div>
 
-                <div class="fs1-5rem hover-effect line-below mar2rem bolder line-below">WORK EXPERIENCE</div>
+                <div class="fs1-5rem line-below mar2rem bolder line-below">WORK EXPERIENCE</div>
                 <div class="project-headings">INTERN : GRAPHICS DESIGN
                 </div>
                 <DIV class="bold600">
@@ -171,7 +175,7 @@
                     </DIV>
 
 
-                    <div class="fs1-5rem hover-effect line-below mar2rem bolder">EDUCATION</div>
+                    <div class="fs1-5rem line-below mar2rem bolder">EDUCATION</div>
                     <div class="project-headings">DIPLOMA : COMPUTER ENGINEERING
                     </div>
                     <div>
@@ -181,9 +185,9 @@
 
 
 
-                    <div class="fs1-5rem hover-effect line-below mar2rem bolder ">SKILLS</div>
+                    <div class="fs1-5rem line-below mar2rem bolder ">SKILLS</div>
                     <ul class="skills">
-                        <li>Googling</li>
+
                         <li>Team Work</li>
                         <li>Innovative Thinking</li>
                         <li>Analytical Skills</li>
@@ -191,7 +195,7 @@
                     </ul>
 
 
-                    <div class="fs1-5rem hover-effect line-below mar2rem bolder ">INTERESTS</div>
+                    <div class="fs1-5rem line-below mar2rem bolder ">INTERESTS</div>
                     <ul class="skills">
                         <li>Open Source
                         </li>
@@ -202,7 +206,7 @@
 
                     </ul>
 
-                    <div class="fs1-5rem hover-effect line-below mar2rem bolder">VOLUNTEER EXPERIENCE</div>
+                    <div class="fs1-5rem line-below mar2rem bolder">VOLUNTEER EXPERIENCE</div>
                     <div class="project-headings">DIPLOMA : COMPUTER ENGINEERING
                     </div>
                     <DIV class="bold600">
@@ -242,6 +246,58 @@
 
 
         </div>
+
+
+
+
+
+
+        <script>
+
+            let arrayOfColors = [
+                "#FF00FF",
+                "#FFFF00",
+                "#000080",
+                "#E9482B",
+                "#ff1a8c",
+                "#141414",
+                "#00FFFF",
+                "#1E365C"
+            ];
+
+           
+            const body = document.querySelector("#body")
+
+            function changeColor() {
+                let randomColors = arrayOfColors[Math.floor(Math.random() * arrayOfColors.length)];
+                // console.log(`"${randomColors}"`)
+                body.style.backgroundColor = randomColors;
+            }
+
+
+            // if (window.performance) {
+            //     console.info("window.performance works fine on this browser");
+            // }
+            // console.info(performance.navigation.type);
+            if (performance.navigation.type == performance.navigation.TYPE_RELOAD) {
+                changeColor()
+                // console.info("This page is reloaded");
+
+            } else {
+                // console.info("This page is not reloaded");
+            }
+
+
+
+
+
+
+
+
+
+
+
+        </script>
 </body>
 
 </html>

@@ -250,7 +250,8 @@ nav #icon {
 
 /**Section**/
 .section {
-    padding: 2rem;
+    padding: 4rem 0rem;
+    
 }
 
 .section h1 {

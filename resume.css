@@ -85,26 +85,26 @@ body{
     }
 
     
-.heading-name:hover{
+/* .heading-name:hover{
 color: var(--orange);
 text-shadow: 2px 2px 2px var(--blue);
-}
+} */
 
 .hover-effect{
     transition: all 0.3s;
     }
 
     
-.hover-effect:hover{
+/* .hover-effect:hover{
 color: var(--orange);
-/* text-shadow: 2px 2px 2px var(--blue); */
-}
+/* text-shadow: 2px 2px 2px var(--blue); }*/
 
-.contact-icons:hover{
+
+/* .contact-icons:hover{
     color: var(--blue) ;
     font-size: 1.5rem;
    
- }
+ } */
 
 .fs1-5rem{
     font-size: 1.5rem;
@@ -142,7 +142,7 @@ color: var(--orange);
 }
 
 .project-headings{
-    margin-top: 1rem;
+    /* margin-top: 1rem; */
     font-size: 16.1494px;
     color: rgb(30, 54, 92);
     line-height: 1.4;
@@ -174,13 +174,10 @@ color: var(--orange);
     cursor: pointer;
     
 }
-.tech-skill:hover{
- 
+/* .tech-skill:hover{ 
     background-color: var(--orange);
-transition: 0.5s all;  
-
-    
-}
+transition: 0.5s all;      
+} */
 .line-above{
     
     text-decoration: overline;
